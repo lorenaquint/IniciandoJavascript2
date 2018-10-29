@@ -58,3 +58,29 @@ if(true){
 }
 
 console.log("Cantidad fuera del if", cantidad);
+
+
+//** constantes */
+
+const edad1= 20;
+console.log("constantes edad",edad1);
+//**edad = 35;
+//console.log("constantes edad",edad); 
+
+//**concatenacion de variables */
+
+var anio = 2018;
+var promedio = "25";
+console.log("la concatenacion de "+anio+" y "+promedio+" es ",anio+ Number(promedio));
+let numero1 = 25;
+let numero2 = 40;
+console.log("la concatenacion es " ,String (numero1)+ String(numero2));
+
+//** ventanas */ 
+//** alertas */
+alert("la concatenacion es " +String (numero1)+ String(numero2));
+//** prompt */
+var modelo = prompt("el modelo del carro es",0);
+//** conf */
+var conf = confirm ("desea salir de la app");
+console.log("confirmacion",conf);
